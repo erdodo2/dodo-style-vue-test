@@ -1,16 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+      <Button type="primary"  >2423432</Button>
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import {Button} from 'dodo-style/vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+       Button:Button
+  },
+    mounted() {
+        console.log('Component mounted.',Button )
+    }
 }
 </script>
 

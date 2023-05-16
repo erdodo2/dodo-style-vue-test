@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "dodo-style": "^0.1.58",
+    "dodo-style-vue": "^0.1.20",
     "vue": "^3.2.13"
   },
   "devDependencies": {
